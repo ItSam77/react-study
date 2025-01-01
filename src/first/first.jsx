@@ -1,8 +1,40 @@
 export default function first() {
     return (
         <div>
-            <p>Hallo</p>
-            <h1>anjay</h1>
+            <Headers/>
+            <Footers/>
+            <Summary/>
+        </div>
+    );
+}
+
+function Headers() {
+    const name = "Header";
+    return (
+        <div>
+            <h1>{name.toUpperCase()}</h1>
+        </div>
+    );
+}
+
+function Footers() {
+    const name = "Footer";
+    return (
+        <div>
+            <p>{name.toLowerCase()}</p>
+        </div>
+    );
+}
+
+function Summary(){
+    const name = "This is my summary";
+    const style = {
+        color: "red" ,
+        backgroundColor: "black"
+    };
+    return (
+        <div>
+            <p style={style}>{name}</p>
         </div>
     );
 }
