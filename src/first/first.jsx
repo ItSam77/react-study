@@ -30,7 +30,7 @@ function Summary(){
     const name = "This is my summary";
     const style = {
         color: "red" ,
-        backgroundColor: "black"
+        backgroundColor: "green"
     };
     return (
         <div>
