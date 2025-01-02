@@ -9,7 +9,7 @@ export default function first() {
 }
 
 function Headers() {
-    const name = "Header";
+    const name = "Headers";
     return (
         <div>
             <h1>{name.toUpperCase()}</h1>
